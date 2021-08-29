@@ -4,7 +4,9 @@
   "description": "react-heroku-app",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "front" : "cd front && npm start"
   },
   "author": "",
   "license": "ISC",
