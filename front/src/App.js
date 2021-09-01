@@ -5,7 +5,7 @@ const App = () => {
 
   const [message, setMessage] = useState('');
   const handleClick = async() => {
-    const data = await window.fetch('/api/youtube')
+    const data = await window.fetch('/api/nicolas')
     const json = await data.json()
     console.log(json)
   }
