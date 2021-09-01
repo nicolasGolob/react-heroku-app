@@ -12,7 +12,7 @@ app.get('/api/nicolas', (_, res)=>{
     //here we have the request and the answer for this url
     //when we call the api/nicolas address, express will answer us with a message subject: " ".
     res.send({
-        message:'Bonjour tout le monde !'
+        message:'Hello everyone !'
     })
 })
 
