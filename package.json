@@ -6,7 +6,13 @@
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon server.js",
-    "front" : "cd front && npm start"
+    "front" : "cd front && npm start",
+    "install-client" : "cd client && npm install",
+    "heroku-postbuild" : "npm run install-client && npm run build",
+    "build" : "cd front && npm run build"
+  },
+  "engines" : {
+    "node" : "14.x"
   },
   "author": "",
   "license": "ISC",
